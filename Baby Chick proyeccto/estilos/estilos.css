@@ -1,0 +1,44 @@
+h1 {
+    font-size: 80px; 
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+.imagen-container {
+    position: relative;
+    overflow: hidden;
+}
+.imagen-producto {
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    width: 400px;
+    height: 550px;
+    transition: transform 0.5s ease-in-out; /* Añade una transición de transformación */
+}
+body {
+    background-color: #fff; /* Fondo blanco */
+}
+
+h1, h5, h4{
+    color: #ff66b2; /* Rosa fuerte para los títulos */
+}
+
+/* Otros estilos específicos para tu diseño en tonos de rosa */
+.container {
+    background-color: #ffe6f2; /* Fondo rosa claro para los contenedores */
+    padding: 20px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-bottom: 20px; /* Espacio entre las filas */
+}
+#contacto{
+    background-color: #fcbfdd;
+}
+#img{
+    width: 100px;
+    height: 100px;
+}
+/* Puedes ajustar estos colores según tus preferencias */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
